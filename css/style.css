@@ -1,15 +1,50 @@
-body{
-    background-color: maroon ;
+body {
+    background-color: maroon;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     text-align: center;
     color: white;
-    font-size: x-large;
+    font-size: 2em;
+    margin-top: 20px;
 }
 
-.input{
+.input {
+    display: block;
+    margin: 20px auto;
     text-align: center;
-    align-items: center;
-    margin: 40px;
+    font-size: 24px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.botao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 5px;
+}
+
+.botao button {
+    background-color: #fff;
+    color: maroon;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botao button:hover {
+    background-color: #dcdcdc;
 }
